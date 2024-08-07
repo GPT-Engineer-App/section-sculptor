@@ -2,7 +2,7 @@ import { ArrowDown } from "lucide-react"
 
 const Hero = () => {
   return (
-    <div className="relative bg-gray-100 py-1 px-4 sm:px-6 lg:px-8">
+    <div className="relative bg-gray-100 py-1 px-4 pt-5 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <h1 className="text-6xl font-bold mb-6">
           Build Business Foundations with next-gen
