@@ -29,11 +29,10 @@ const WorldUsersSection = () => {
         </div>
         <div className="relative">
           <img 
-            src="https://img.freepik.com/free-vector/worldwide-global-map-outline-black-background_1017-46153.jpg" 
+            src="/world-map-outline.png" 
             alt="World map"
-            className="w-full h-auto"
+            className="w-full h-auto invert"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-black via-transparent to-black"></div>
         </div>
       </div>
     </div>
