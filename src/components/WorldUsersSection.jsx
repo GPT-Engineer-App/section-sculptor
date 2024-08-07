@@ -2,7 +2,7 @@ import { Globe } from "lucide-react"
 
 const WorldUsersSection = () => {
   return (
-    <div className="bg-black text-white py-16 px-4">
+    <div className="bg-black text-white py-16 px-4 mt-16">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-orange-500 mb-2">Benefits</h2>
         <h3 className="text-4xl font-bold mb-4">
@@ -28,7 +28,11 @@ const WorldUsersSection = () => {
           </div>
         </div>
         <div className="relative">
-          <Globe className="w-full h-auto text-gray-700" />
+          <img 
+            src="https://img.freepik.com/free-vector/worldwide-global-map-outline-black-background_1017-46153.jpg" 
+            alt="World map"
+            className="w-full h-auto"
+          />
           <div className="absolute inset-0 bg-gradient-to-r from-black via-transparent to-black"></div>
         </div>
       </div>
