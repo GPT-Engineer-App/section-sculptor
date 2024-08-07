@@ -29,9 +29,9 @@ const WorldUsersSection = () => {
         </div>
         <div className="relative">
           <img 
-            src="https://upload.wikimedia.org/wikipedia/commons/e/e4/World_map_blank_without_borders.svg" 
+            src="https://img.freepik.com/free-vector/worldwide-global-map-outline-black-background_1017-46153.jpg" 
             alt="World map"
-            className="w-full h-auto invert"
+            className="w-full h-auto"
           />
         </div>
       </div>
