@@ -1,6 +1,7 @@
 import Header from '../components/Header';
 import Hero from '../components/Hero';
 import ImageCard from '../components/ImageCard';
+import WorldUsersSection from '../components/WorldUsersSection';
 
 const Index = () => {
   return (
@@ -16,6 +17,7 @@ const Index = () => {
         </div>
       </div>
       <ImageCard />
+      <WorldUsersSection />
     </div>
   );
 };
