@@ -2,6 +2,7 @@ import Header from '../components/Header';
 import Hero from '../components/Hero';
 import ImageCard from '../components/ImageCard';
 import WorldUsersSection from '../components/WorldUsersSection';
+import ServicesSection from '../components/ServicesSection';
 
 const Index = () => {
   return (
@@ -17,6 +18,7 @@ const Index = () => {
         </div>
       </div>
       <ImageCard />
+      <ServicesSection />
       <WorldUsersSection />
     </div>
   );
