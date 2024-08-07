@@ -2,7 +2,7 @@ import { Globe } from "lucide-react"
 
 const WorldUsersSection = () => {
   return (
-    <div className="bg-black text-white py-20 px-4 mt-32">
+    <div className="bg-black text-white py-20 px-4 pt-64">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 md:pr-8">
           <h2 className="text-orange-500 mb-2">Benefits</h2>
