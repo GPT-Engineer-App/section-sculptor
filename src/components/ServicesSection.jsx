@@ -7,7 +7,7 @@ const ServicesSection = () => {
         <h2 className="text-4xl font-bold mb-2">What can you expect ?</h2>
         <h3 className="text-6xl font-bold text-orange-500 mb-8">Services</h3>
         <div className="grid grid-cols-1 gap-6">
-          <Card className="bg-gradient-to-br from-blue-100 to-blue-200 w-[90%] mx-auto">
+          <Card className="bg-gradient-to-br from-blue-100 to-blue-200 w-full">
             <CardContent className="p-6">
               <h4 className="text-xl font-semibold mb-2">Consultation</h4>
               <p className="text-sm">We start with a thorough consultation to understand your needs and goals.</p>
