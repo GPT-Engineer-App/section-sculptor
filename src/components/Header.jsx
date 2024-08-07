@@ -2,9 +2,13 @@ import { Button } from "@/components/ui/button"
 
 const Header = () => {
   return (
-    <header className="flex justify-between items-center p-4 bg-white rounded-lg shadow-md mx-4 mt-4">
+    <header className="flex justify-between items-center p-4 bg-transparent">
       <div className="flex items-center">
-        <img src="/placeholder.svg" alt="VeloxForce Logo" className="h-8 w-8 mr-2 rounded-full" />
+        <svg className="h-8 w-8 mr-2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2L2 7L12 12L22 7L12 2Z" fill="#FF6B00"/>
+          <path d="M2 17L12 22L22 17" stroke="#FF6B00" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          <path d="M2 12L12 17L22 12" stroke="#FF6B00" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+        </svg>
         <span className="text-xl font-bold">VELOXFORCE</span>
       </div>
       <nav>
@@ -14,7 +18,7 @@ const Header = () => {
           <li><a href="#blog" className="hover:text-orange-500 transition-colors">Blog</a></li>
         </ul>
       </nav>
-      <Button variant="default" className="bg-orange-500 hover:bg-orange-600 text-white">Book a call</Button>
+      <Button variant="default" className="bg-black text-white rounded-full px-6 py-2">Book a call</Button>
     </header>
   )
 }
