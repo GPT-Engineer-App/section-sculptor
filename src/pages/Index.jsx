@@ -1,7 +1,6 @@
 import Header from '../components/Header';
 import Hero from '../components/Hero';
 import ImageCard from '../components/ImageCard';
-import AIFeatures from '../components/AIFeatures';
 
 const Index = () => {
   return (
@@ -15,7 +14,6 @@ const Index = () => {
           <Header />
           <Hero />
         </div>
-        <AIFeatures />
         <ImageCard />
       </div>
     </div>
