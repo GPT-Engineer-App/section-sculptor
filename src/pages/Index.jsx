@@ -18,8 +18,8 @@ const Index = () => {
         </div>
       </div>
       <ImageCard />
-      <ServicesSection />
       <WorldUsersSection />
+      <ServicesSection />
     </div>
   );
 };
