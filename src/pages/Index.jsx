@@ -10,7 +10,7 @@ const Index = () => {
         <span className="font-bold">10 courses in one for $9.99</span>
       </div>
       <div className="pt-8">
-        <div className="bg-gradient-to-b from-orange-100 to-transparent pb-16">
+        <div className="bg-gradient-to-b from-orange-100 to-transparent pb-1">
           <Header />
           <Hero />
         </div>
