@@ -3,6 +3,7 @@ import Hero from '../components/Hero';
 import ImageCard from '../components/ImageCard';
 import WorldUsersSection from '../components/WorldUsersSection';
 import ServicesSection from '../components/ServicesSection';
+import ComparisonTable from '../components/ComparisonTable';
 
 const Index = () => {
   return (
@@ -20,6 +21,7 @@ const Index = () => {
       <ImageCard />
       <WorldUsersSection />
       <ServicesSection />
+      <ComparisonTable />
     </div>
   );
 };
