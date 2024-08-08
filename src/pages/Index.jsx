@@ -7,6 +7,7 @@ import ComparisonTable from '../components/ComparisonTable';
 import IntegrationsSection from '../components/IntegrationsSection';
 import CompanyProfiles from '../components/CompanyProfiles';
 import VeloxforceTeam from '../components/VeloxforceTeam';
+import ProjectDiscussion from '../components/ProjectDiscussion';
 
 const Index = () => {
   return (
@@ -28,6 +29,7 @@ const Index = () => {
       <IntegrationsSection />
       <CompanyProfiles />
       <VeloxforceTeam />
+      <ProjectDiscussion />
     </div>
   );
 };
