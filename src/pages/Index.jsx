@@ -4,6 +4,7 @@ import ImageCard from '../components/ImageCard';
 import WorldUsersSection from '../components/WorldUsersSection';
 import ServicesSection from '../components/ServicesSection';
 import ComparisonTable from '../components/ComparisonTable';
+import IntegrationsSection from '../components/IntegrationsSection';
 
 const Index = () => {
   return (
@@ -22,6 +23,7 @@ const Index = () => {
       <WorldUsersSection />
       <ServicesSection />
       <ComparisonTable />
+      <IntegrationsSection />
     </div>
   );
 };
