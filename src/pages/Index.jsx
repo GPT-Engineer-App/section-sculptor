@@ -6,6 +6,7 @@ import ServicesSection from '../components/ServicesSection';
 import ComparisonTable from '../components/ComparisonTable';
 import IntegrationsSection from '../components/IntegrationsSection';
 import CompanyProfiles from '../components/CompanyProfiles';
+import VeloxforceTeam from '../components/VeloxforceTeam';
 
 const Index = () => {
   return (
@@ -26,6 +27,7 @@ const Index = () => {
       <ComparisonTable />
       <IntegrationsSection />
       <CompanyProfiles />
+      <VeloxforceTeam />
     </div>
   );
 };
