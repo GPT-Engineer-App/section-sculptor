@@ -2,19 +2,19 @@ import { Video, Megaphone } from "lucide-react"
 
 const IntegrationsSection = () => {
   return (
-    <section className="bg-gray-200 py-16 px-4">
+    <section className="bg-gray-200 py-32 px-4">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="md:w-1/2 mb-8 md:mb-0">
             <div className="grid grid-cols-2 gap-4">
               {[...Array(8)].map((_, index) => (
-                <div key={index} className="bg-black rounded-full p-4 flex items-center justify-center">
+                <div key={index} className="bg-black rounded-full p-4 flex items-center justify-center w-32 h-16 transform rotate-90">
                   {index % 3 === 0 ? (
-                    <img src="/favicon.ico" alt="Veloxforce icon" className="w-8 h-8" />
+                    <img src="/favicon.ico" alt="Veloxforce icon" className="w-8 h-8 transform -rotate-90" />
                   ) : index % 3 === 1 ? (
-                    <Megaphone className="w-8 h-8 text-purple-500" />
+                    <Megaphone className="w-8 h-8 text-purple-500 transform -rotate-90" />
                   ) : (
-                    <Video className="w-8 h-8 text-blue-500" />
+                    <Video className="w-8 h-8 text-blue-500 transform -rotate-90" />
                   )}
                 </div>
               ))}
