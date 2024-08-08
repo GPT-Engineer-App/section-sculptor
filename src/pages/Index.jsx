@@ -8,6 +8,7 @@ import IntegrationsSection from '../components/IntegrationsSection';
 import CompanyProfiles from '../components/CompanyProfiles';
 import VeloxforceTeam from '../components/VeloxforceTeam';
 import ProjectDiscussion from '../components/ProjectDiscussion';
+import Footer from '../components/Footer';
 
 const Index = () => {
   return (
@@ -30,6 +31,7 @@ const Index = () => {
       <CompanyProfiles />
       <VeloxforceTeam />
       <ProjectDiscussion />
+      <Footer />
     </div>
   );
 };
