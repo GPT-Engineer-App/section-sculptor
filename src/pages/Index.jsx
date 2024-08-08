@@ -5,6 +5,7 @@ import WorldUsersSection from '../components/WorldUsersSection';
 import ServicesSection from '../components/ServicesSection';
 import ComparisonTable from '../components/ComparisonTable';
 import IntegrationsSection from '../components/IntegrationsSection';
+import CompanyProfiles from '../components/CompanyProfiles';
 
 const Index = () => {
   return (
@@ -24,6 +25,7 @@ const Index = () => {
       <ServicesSection />
       <ComparisonTable />
       <IntegrationsSection />
+      <CompanyProfiles />
     </div>
   );
 };
