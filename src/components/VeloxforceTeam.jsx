@@ -26,34 +26,32 @@ const VeloxforceTeam = () => {
   const member = teamMembers[currentMember];
 
   return (
-    <section className="bg-gray-200 py-16 px-4">
+    <section className="bg-black text-white py-24 px-4">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-6xl font-bold mb-12">
           Veloxforce <span className="text-orange-500">Team.</span>
         </h2>
-        <div className="bg-white p-8 rounded-lg shadow-lg">
-          <div className="flex flex-col md:flex-row">
-            <div className="md:w-1/2 mb-8 md:mb-0">
-              <img src={member.image} alt={member.name} className="w-full h-auto object-cover rounded-lg" />
+        <div className="flex flex-col md:flex-row items-center">
+          <div className="md:w-1/2 mb-8 md:mb-0 relative">
+            <img src={member.image} alt={member.name} className="w-full h-auto object-cover rounded-lg" />
+            <div className="absolute bottom-4 left-4 bg-black bg-opacity-70 p-4 rounded">
+              <p className="text-sm text-gray-300">NAME: {member.name}</p>
+              <p className="text-sm text-gray-300">ROLE: {member.role}</p>
+              <p className="text-sm text-gray-300">COMPANY: {member.company}</p>
             </div>
-            <div className="md:w-1/2 md:pl-8 flex flex-col justify-between">
-              <div>
-                <div className="mb-4">
-                  <p className="text-sm text-gray-500">NAME: {member.name}</p>
-                  <p className="text-sm text-gray-500">ROLE: {member.role}</p>
-                  <p className="text-sm text-gray-500">COMPANY: {member.company}</p>
-                </div>
-                <blockquote className="text-xl italic mb-4">"{member.quote}"</blockquote>
-              </div>
-              <div className="flex justify-between items-center">
-                <button onClick={prevMember} className="text-orange-500 hover:text-orange-600">
-                  <ChevronLeft size={24} />
-                </button>
-                <span className="text-sm text-gray-500">01/{teamMembers.length.toString().padStart(2, '0')}</span>
-                <button onClick={nextMember} className="text-orange-500 hover:text-orange-600">
-                  <ChevronRight size={24} />
-                </button>
-              </div>
+          </div>
+          <div className="md:w-1/2 md:pl-12 flex flex-col justify-between">
+            <div>
+              <blockquote className="text-2xl font-light mb-8">"{member.quote}"</blockquote>
+            </div>
+            <div className="flex justify-between items-center">
+              <button onClick={prevMember} className="text-orange-500 hover:text-orange-600">
+                <ChevronLeft size={24} />
+              </button>
+              <span className="text-sm text-gray-400">0{currentMember + 1}/0{teamMembers.length}</span>
+              <button onClick={nextMember} className="text-orange-500 hover:text-orange-600">
+                <ChevronRight size={24} />
+              </button>
             </div>
           </div>
         </div>
